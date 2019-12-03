@@ -22,6 +22,6 @@ secure flag makes sure that the connection takes place only using https.
 
 ### Running the project
   1. Run mongodb
-  2. Run authentication-client using "npm run start"
-  3. Run authentication-server using "npm run start"
+  2. Run authentication-server using "npm run start"
+  3. Run authentication-client using "npm run start"
   4. Open localhost:3000
