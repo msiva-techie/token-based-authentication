@@ -1,5 +1,5 @@
 # Token-based-authentication
-Token Based Authentication for MERN Application
+Token Based Authentication for MERN (MongoDB, Express, React, Node.js) Application
 
 Prevent cross site scripting (XSS) and cross site request forgery (CSRF).
 Secure the cookie with {secure:true,httpOnly:true}.
@@ -19,3 +19,9 @@ secure flag makes sure that the connection takes place only using https.
   3. After receiving both the cookies, the client will read the token (XSRF-token) from the second cookie and set this as the header to the subsequent requests.
   4. The server after receiving the httpCookie (contains JWT token) will cross verify the token (XSRF-token) in the request header.
   5. If the token (XSRF-token) in both request header and the JWT token are same, then the request is valid.
+
+### Running the project
+  1. Run mongodb
+  2. Run authentication-client using "npm run start"
+  3. Run authentication-server using "npm run start"
+  4. Open localhost:3000
